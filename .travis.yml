@@ -1,0 +1,6 @@
+dist: xenial
+arch:
+  - ppc64le
+language: java
+script:
+  - mvn install 
