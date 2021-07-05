@@ -3,4 +3,4 @@ arch:
   - ppc64le
 language: java
 script:
-  - ./build.sh
+  - mvn clean install
