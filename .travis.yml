@@ -4,3 +4,4 @@ arch:
 language: java
 script:
   - mvn install
+  - mvn test
