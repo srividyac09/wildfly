@@ -3,5 +3,5 @@ arch:
   - ppc64le
 language: java
 script:
-  - ./build.sh
+  - travis_wait 50 mvn install
   
