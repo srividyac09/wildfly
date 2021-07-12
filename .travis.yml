@@ -3,5 +3,5 @@ arch:
   - ppc64le
 language: java
 script:
-  - mvn install
+  - ./build.sh
   
